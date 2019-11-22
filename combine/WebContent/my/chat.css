@@ -1,0 +1,195 @@
+@CHARSET "ISO-8859-1";
+ @media only screen and (max-width : 540px) 
+            {
+                .chat-sidebar
+                {
+                    display: none !important;
+                    margin-top:80px;
+                }
+                
+                .chat-popup
+                {
+                    display: none !important;
+                }
+            }
+            
+            body
+            {
+                background-color: #e9eaed;
+            }
+            
+            #chatopen1
+            {
+            right:0;
+            bottom:0;
+            position:fixed;
+            z-index:5;
+           
+		    width: 200px;
+		    display: inline-block;
+		    padding: 6px 12px;
+		    margin-bottom: 0;
+		    font-size: 14px;
+		    font-weight: 400;
+		    line-height: 1.42857143;
+		    text-align: center;
+		    white-space: nowrap;
+		    vertical-align: middle;
+		    -ms-touch-action: manipulation;
+		    touch-action: manipulation;
+		    cursor: pointer;
+		    -webkit-user-select: none;
+		    -moz-user-select: none;
+		    -ms-user-select: none;
+		    user-select: none;
+		    background-image: none;
+		    border: 1px solid transparent;
+		    border-radius: 4px;
+		    background-color: #3ba1cb;
+            }
+            .chat-sidebar
+            {
+            	margin-bottom: 20px;
+                width: 200px;
+                position: fixed;
+                height: 100%;
+                right: 0px;
+                top: 0px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                /*border: 1px solid rgba(29, 49, 91, .3);*/
+                z-index:4;
+                margin-top:79px;
+                background: #FBFBFB;
+            }
+            
+            .sidebar-name 
+            {
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-bottom: 20px;
+                font-size: 12px;
+            }
+            
+            .sidebar-name span
+            {
+            margin-bottom: 20px;
+                padding-left: 5px;
+            }
+            
+            .sidebar-name a
+            {
+            	margin-bottom: 5px;
+                display: block;
+                height: 100%;
+                text-decoration: none !important;
+                color: inherit;
+                 
+            }
+            .sidebar-name a:hover
+            {
+            background-color:#e1e2e5;
+            }
+            .sidebar-name:hover
+            {
+               
+            }
+            
+            .sidebar-name img
+            {
+                width: 32px;
+    			height: 32px;
+                vertical-align:middle;
+                border-radius: 2px;
+            }
+            
+            .popup-box
+            {
+                display: none;
+                position: fixed;
+                bottom: 0px;
+                right: 220px;
+                height: 285px;
+                background-color: rgb(237, 239, 244);
+                width: 300px;
+                /*border: 1px solid rgba(29, 49, 91, .3);*/
+                word-wrap: break-word
+                border-r;
+                border-radius: 2px;
+                z-index: 5;
+            }
+            
+            .popup-box .popup-head
+            {
+                background-color: #3ba1cb;
+                padding: 5px;
+                color: white;
+                font-weight: bold;
+                font-size: 14px;
+                clear: both;
+                border-radius:5px;
+            }
+            
+            .popup-box .popup-head .popup-head-left
+            {
+                float: left;
+            }
+            
+            .popup-box .popup-head .popup-head-right
+            {
+                float: right;
+                opacity: 0.5;
+            }
+            
+            .popup-box .popup-head .popup-head-right a
+            {
+                text-decoration: none;
+                color: inherit;
+            }
+            
+            .popup-box .popup-messages
+            {
+            	background-color: white;
+                height: 77%;
+                overflow-y: scroll;
+                
+            }
+            .popup-box .popup-messages .popup-message-sender
+            {
+                clear: both;
+			    float: left;
+			    display: block;
+			    position: relative;
+			    background-color: #f1f0f0;
+			    margin: 5px;
+			    border-radius: 0px 10px 10px 10px;
+			    min-width: 20px;
+			    padding: 3px;
+			    max-width: 80%;
+    			word-wrap: break-word;
+                
+            }
+            .popup-box .popup-messages .popup-message-me
+            {
+              
+               clear: both;
+			    float: right;
+			    display: block;
+			    position: relative;
+			    background-color: #296f8c;
+			    margin: 5px;
+			    color: white;
+			    padding: 3px;
+			    border-radius: 10px 0px 10px 10px;
+			    max-width: 80%;
+    			word-wrap: break-word;
+            }
+            .popup-box .popup-messages-input 
+            {
+            width: 98%;
+            bottom: 0px;
+            position: absolute;
+            }
+	.chatdp
+	{
+	}
