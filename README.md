@@ -1,4 +1,5 @@
 # fbXamazon
+I build everything here except the UI, for that i used a free template
 ![Admin page](https://github.com/itsmeadi/fbXamazon/blob/master/lat%2B/admin.PNG)
 ![Cart](https://github.com/itsmeadi/fbXamazon/blob/master/lat%2B/cart.PNG)
 ![Categories](https://github.com/itsmeadi/fbXamazon/blob/master/lat%2B/categories.PNG)
